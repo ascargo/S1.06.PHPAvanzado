@@ -20,8 +20,6 @@ class Triangle extends Polygon {
     }
 }
 
-//$shapeOne = new Rectangle(20, 10);
-//echo $shapeOne; echo __LINE__;
 $shapeTwo = new Triangle(5,2);
 echo "The area of the trinagle is: " . $shapeTwo->area() . "<br>"; echo "typo in this line: " . __LINE__;
 ?>
